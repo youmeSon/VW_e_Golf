@@ -30,6 +30,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  box-sizing: border-box;
+}
 
 h2 {
   margin-bottom: 0.7em;
@@ -50,6 +53,14 @@ p {
   font-size: var(--font-micro);
   border-radius: 25px;
 }
+
+.info__container {
+  transition: all 300ms ease-out;
+}
+.info__container:hover {
+  color: var(--color-light-grey);
+}
+
 /* About */
 #about {
   padding-top: 10rem;
@@ -79,13 +90,7 @@ p {
 }
 
 .about__info {
-  padding: 0 2em 0 2em;
-}
-.info__container {
-  transition: all 300ms ease-out;
-}
-.info__container:hover {
-  color: var(--color-light-grey);
+  padding: 0 2em 0 3em;
 }
 
 @media only screen and (max-width: 48rem) {

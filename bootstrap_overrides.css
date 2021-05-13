@@ -3,6 +3,10 @@
   color: var(--color-white);
 }
 
+.navbar-brand {
+  margin-left: 1rem;
+}
+
 .navbar-brand,
 .navbar-nav .nav-link {
   color: var(--color-white);
@@ -16,4 +20,38 @@
 
 .container-fluid {
   padding: 0;
+}
+
+.navbar-nav {
+  margin: 0 10px;
+}
+.nav_item {
+  margin: 0 16px;
+}
+
+.nav-link {
+  border-radius: 4px;
+  margin: 0 3px;
+  outline: none;
+}
+.nav-link.active {
+  border-bottom: 1px solid rgb(163, 161, 185);
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid rgb(163, 161, 185);
+}
+
+.navbar-dark .navbar-toggler {
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .nav-link:hover {
+    background-color: #00b1eb;
+  }
+  .nav-link.active {
+    border: none;
+  }
 }
