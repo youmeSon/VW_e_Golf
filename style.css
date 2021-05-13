@@ -11,12 +11,13 @@
   /* Font size */
   --font-large: 48px;
   --font-medium: 2.5rem;
+  --font-regular: 2rem;
   --font-small: 1.4rem;
   --font-micro: 1.2rem;
 
   /* Font weight */
   --weight-bold: 700;
-  --weight-semi-bold: 600;
+  --weight-semi-bold: 500;
   --weight-regular: 400;
 
   /* Size */
@@ -39,6 +40,11 @@ h2 {
   font-size: var(--font-medium);
 }
 
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+}
+
 p {
   margin-bottom: 2em;
   color: var(--color-grey);
@@ -55,23 +61,34 @@ p {
 }
 
 .info__container {
-  transition: all 300ms ease-out;
+  transition: all var(--animation-duration) ease-out;
 }
 .info__container:hover {
   color: var(--color-light-grey);
 }
 
-/* About */
-#about {
-  padding-top: 10rem;
-}
-
-.about__title-head {
+.title-head {
+  margin-top: 8rem;
   margin-bottom: 0.5em;
   text-align: center;
 }
 
-.about__title-p {
+.title-p {
+  text-align: center;
+  margin-bottom: 8em;
+}
+
+/* About */
+#about {
+  padding-top: 2rem;
+}
+
+.title-head {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.title-p {
   text-align: center;
   margin-bottom: 8em;
 }
@@ -82,7 +99,7 @@ p {
 
 .car_image {
   width: 100rem;
-  transition: transform 350ms ease-in;
+  transition: transform var(--animation-duration) ease-in;
 }
 
 .car_image:hover {
@@ -93,6 +110,31 @@ p {
   padding: 0 2em 0 3em;
 }
 
+.strength__item {
+  text-align: center;
+}
+
+.strength__icon {
+  width: 11rem;
+  height: 11rem;
+  line-height: 11rem;
+  font-size: 4.5rem;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+  border-radius: 50%;
+}
+
+.strength__icon i {
+  transition: all var(--animation-duration) ease;
+}
+.strength__icon:hover i {
+  color: var(--color-dark-blue);
+  transform: rotate(-30deg) scale(1.1);
+}
+
 @media only screen and (max-width: 48rem) {
   .carousel-caption {
     transform: translateY(1.5rem);
@@ -100,7 +142,7 @@ p {
   #about {
     padding-top: 3rem;
   }
-  .about__title-p {
+  .title-p {
     margin-bottom: 2.5rem;
   }
 }
