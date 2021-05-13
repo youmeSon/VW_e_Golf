@@ -58,6 +58,13 @@ p {
   color: var(--color-white);
   font-size: var(--font-micro);
   border-radius: 25px;
+  outline: none;
+  border: none;
+  transition: transform var(--animation-duration) ease;
+}
+.button_info:hover {
+  background-color: var(--color-blue);
+  transform: scale(1.1);
 }
 
 .info__container {
@@ -68,7 +75,7 @@ p {
 }
 
 .title-head {
-  margin-top: 8rem;
+  margin-top: 10rem;
   margin-bottom: 0.5em;
   text-align: center;
 }
@@ -93,7 +100,7 @@ p {
 }
 
 .car_image:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .about__info {
@@ -137,7 +144,7 @@ p {
     padding-top: 1rem;
   }
   .title-head {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .title-p {
