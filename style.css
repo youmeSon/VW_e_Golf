@@ -70,10 +70,12 @@ p {
 }
 
 .info__container {
-  transition: all var(--animation-duration) ease-out;
   padding: 0 4rem;
 }
-.info__container:hover {
+.info__data {
+  transition: all var(--animation-duration) ease-out;
+}
+.info__data:hover {
   color: var(--color-light-grey);
 }
 
