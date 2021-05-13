@@ -57,9 +57,17 @@
   color: var(--color-grey);
 }
 
+.page-footer {
+  margin-top: 4rem;
+}
 .footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-dark-blue);
   color: var(--color-white);
+  height: 5rem;
+  margin-top: 1rem;
 }
 @media screen and (max-width: 48rem) {
   .nav-link:hover {
