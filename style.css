@@ -33,6 +33,7 @@
 }
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -54,6 +55,7 @@ p {
 .button_info {
   width: 12rem;
   height: 3.5rem;
+  margin-bottom: 2rem;
   background-color: var(--color-deep-blue);
   color: var(--color-white);
   font-size: var(--font-micro);
@@ -69,6 +71,7 @@ p {
 
 .info__container {
   transition: all var(--animation-duration) ease-out;
+  padding: 0 4rem;
 }
 .info__container:hover {
   color: var(--color-light-grey);
@@ -101,10 +104,6 @@ p {
 
 .car_image:hover {
   transform: scale(1.02);
-}
-
-.about__info {
-  padding: 0 2em 0 3em;
 }
 
 .strength__items {
@@ -153,6 +152,7 @@ p {
 
   .info__container {
     margin-top: 1rem;
+    text-align: center;
   }
 
   .strength__items {
