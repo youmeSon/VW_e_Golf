@@ -46,7 +46,21 @@
   outline: none;
   border: none;
 }
+/* Contact */
+.list-unstyled {
+  text-align: start;
+}
 
+.footer__item {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-grey);
+}
+
+.footer-copyright {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
 @media screen and (max-width: 48rem) {
   .nav-link:hover {
     background-color: #00b1eb;

@@ -36,6 +36,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 h2 {
   margin-bottom: 0.7em;
   font-size: var(--font-medium);
@@ -44,6 +48,11 @@ h2 {
 h3 {
   font-size: var(--font-regular);
   font-weight: var(--weight-semi-bold);
+}
+
+h4 {
+  font-size: var(--font-micro);
+  font-weight: var(--weight-bold);
 }
 
 p {
@@ -137,6 +146,10 @@ p {
   transform: rotate(-30deg) scale(1.1);
 }
 
+.contact__btn {
+  text-align: center;
+}
+
 @media only screen and (max-width: 48rem) {
   .carousel-caption {
     transform: translateY(1.5rem);
@@ -173,6 +186,6 @@ p {
     --font-large: 2.5rem;
     --font-medium: 2rem;
     --font-small: 1rem;
-    --font-micro: 0.7rem;
+    --font-micro: 0.9rem;
   }
 }
