@@ -1,6 +1,36 @@
 :root {
+  /* Color */
   --color-white: #ffffff;
   --color-blue: #00b1eb;
   --color-dark-blue: #003164;
   --color-deep-blue: #001e50;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radius: 4px;
+
+  /* Animation */
+  --animation-duration: 300ms;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 48rem) {
+  .carousel-caption {
+    transform: translateY(1.5rem);
+  }
 }

@@ -7,3 +7,9 @@
 .navbar-nav .nav-link {
   color: white;
 }
+
+.carousel-caption {
+  right: 10%;
+  left: 10%;
+  text-align: left;
+}
