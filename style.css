@@ -1,16 +1,18 @@
 :root {
   /* Color */
-  --color-white: #ffffff;
+  --color-white: #fffbfb;
   --color-blue: #00b1eb;
   --color-dark-blue: #003164;
   --color-deep-blue: #001e50;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
 
   /* Font size */
   --font-large: 48px;
-  --font-medium: 28px;
-  --font-regular: 18px;
-  --font-small: 16px;
-  --font-micro: 14px;
+  --font-medium: 2.5rem;
+  --font-small: 1.4rem;
+  --font-micro: 1.2rem;
 
   /* Font weight */
   --weight-bold: 700;
@@ -29,8 +31,81 @@
   box-sizing: border-box;
 }
 
+h2 {
+  margin-bottom: 0.7em;
+  font-size: var(--font-medium);
+}
+
+p {
+  margin-bottom: 2em;
+  color: var(--color-grey);
+  font-size: var(--font-small);
+}
+
+.button_info {
+  width: 12rem;
+  height: 3.5rem;
+  background-color: var(--color-deep-blue);
+  color: var(--color-white);
+  font-size: var(--font-micro);
+  border-radius: 25px;
+}
+/* About */
+#about {
+  padding-top: 10rem;
+}
+
+.about__title-head {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.about__title-p {
+  text-align: center;
+  margin-bottom: 8em;
+}
+
+.about__eGolf {
+  display: flex;
+}
+
+.car_image {
+  width: 100rem;
+  transition: transform 350ms ease-in;
+}
+
+.car_image:hover {
+  transform: scale(1.05);
+}
+
+.about__info {
+  padding: 0 2em 0 2em;
+}
+.info__container {
+  transition: all 300ms ease-out;
+}
+.info__container:hover {
+  color: var(--color-light-grey);
+}
+
 @media only screen and (max-width: 48rem) {
   .carousel-caption {
     transform: translateY(1.5rem);
+  }
+  #about {
+    padding-top: 3rem;
+  }
+  .about__title-p {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 64rem) {
+  :root {
+    /* Font size */
+    --font-large: 2.5rem;
+    --font-medium: 2rem;
+    --font-small: 1rem;
+    --font-micro: 0.7rem;
   }
 }

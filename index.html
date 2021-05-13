@@ -85,9 +85,9 @@
     </nav>
     <!-- Main -->
     <main calss="container main_page" id="main">
-      <div class="hero">
+      <div class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active data-interval="350">
             <img
               class="d-block w-100"
               src="/img/car_image/main_front.png"
@@ -97,10 +97,10 @@
               <h1 class="display-1">e-Golf</h1>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item data-interval="350">
             <img
               class="d-block w-100"
-              src="/img/car_image/main_img2.jpg"
+              src="/img/car_image/main_img.png"
               alt="main e-golf"
             />
             <div class="carousel-caption text-start">
@@ -108,40 +108,48 @@
             </div>
           </div>
         </div>
+        
       </div>
     </main>
     <!-- About -->
-    <section class="container" id="about">
-      <div class="about__container">
-        <div class="about__eGolf">
-          <img src="/img/car_image/fast_golf.jpg" alt="about e-Golf" />
-          <div class="about__info">
-            <h3>The e-Golf is powerful, <b>efficeint, sustainable.</b></h3>
-            <span
-              >The e-Golf is everything you'd expect from a Volkswagen and more.
+    <section id="about">
+      <h2 class="about__title-head">The e-Golf is powerful, <b>efficeint, sustainable.</b></h2>
+      <p class="about__title-p">The e-Golf is everything you'd expect from a Volkswagen and more.</p>
+      <div class="container-fluid about__container">
+        <div class="row about__eGolf">
+          <div class="col-md-7 col-sm-12 about__img">
+            <img class="img-fluid car_image" src="/img/car_image/comfort.png" alt="about e-Golf" />
+          </div>
+          <div class="col-md-5 col-sm-12 about__info">
+            <div class="info__container">
+              <h2>Experience <b>the future</b> of driving now.</h2>
+            <p
+              >  The e-Golf is everything you'd expect from a Volkswagen and more.
               Exceptional handling, acceleration and grip combined with a
               supremely quiet drive and an impressive range of 144 miles (WLTP).
-              Why wouldn't you go eletric?</span
+              Why wouldn't you go eletric?</p
             >
-            <button>Contact me</button>
+            </div>
+            
+            <button class="button_info">Contact me</button>
           </div>
         </div>
         <div class="about__strength">
           <div class="strength__detail">
             <i class="fas fa-hand-holding-usd"></i>
-            <h3>Economical to run</h3>
+            <h2>Economical to run</h2>
             <span
               >The e-Golf costs 4p per mile versus 14p petrol equivalent.</span
             >
           </div>
           <div class="strength__detail">
             <i class="fas fa-car"></i>
-            <h3>Brilliant to drive</h3>
+            <h2>Brilliant to drive</h2>
             <span>Quiet and spacious, with electric acceleration.</span>
           </div>
           <div class="strength__detail">
             <i class="fas fa-road"></i>
-            <h3>Plenty of range</h3>
+            <h2>Plenty of range</h2>
             <span
               >144 miles WLTP tested range. That's London to Brighton and
               back.</span
@@ -149,7 +157,7 @@
           </div>
           <div class="strength__detail">
             <i class="fas fa-tools"></i>
-            <h3>Easy to maintain</h3>
+            <h2>Easy to maintain</h2>
             <span
               >Simple. Clean. Dependable. Servicing at all Volkswagen
               garages.</span
@@ -159,43 +167,44 @@
       </div>
     </section>
     <!-- Design-->
-    <section class="container" id="design">
+    <section class="container-fluid" id="design">
       <div class="design__container">
         <div class="design__title">
-          <h3>Design</h3>
+          <h2>Design</h2>
           <span
             >Everything you love about the Golf on the outside. Everything
             you'll love about the e‑Golf on the inside.
           </span>
         </div>
         <div class="design__detail">
-          <img src="/img/car_image/design_front.png" alt="e-golf design" />
+          <img class="img-fluid" src="/img/car_image/design_front.png" alt="e-golf design" />
           <div class="design__info">
-            <h4><b>Instantly</b>recognisable</h4>
+            <h2><b>Instantly</b>recognisable</h2>
             <span
               >The e‑Golf retains the classic styling of the Golf, with its own
               electric twist. LED headlights, C-shaped running lights and
               signature blue flash across the front grille.</span
             >
-            <button>Find out more</button>
+            <button class="button_info">Find out more</button>
           </div>
         </div>
       </div>
     </section>
     <!-- Comfort -->
-    <section class="container" id="comfort">
+    <section class="container-fluid" id="comfort">
       <div class="comfort__container">
         <div class="comfort__title">
-          <h3>Comfort</h3>
+          <h2>Comfort</h2>
           <span>Exceptional comfort for an exceptional car </span>
         </div>
         <div class="comfort__detail">
           <img
+            class="img-fluid"
             src="/img/car_image/inside_the_car.png"
             alt="inside image for e-golf "
           />
           <div class="comfort__info">
-            <h4><b>High-spec tech.</b>Total comfort</h4>
+            <h2><b>High-spec tech.</b>Total comfort</h2>
             <span
               >The e‑Golf provides for comfort, convenience and style. The cabin
               is climate controlled and the fully adjustable front seats offer
@@ -211,22 +220,21 @@
       </div>
     </section>
     <!-- Review -->
-    <section class="container" id="review">
+    <section class="container-fluid" id="review">
       <div class="review__container">
         <div class="review__title">
-          <h3>Reviews and awards</h3>
+          <h2>Reviews and awards</h2>
           <span>Read the latest Golf's reviews and awards </span>
         </div>
         <div class="review__detail">
-          <img src="/img/car_image/charging.png" alt="e-golf review" />
+          <img class="img-fluid" src="/img/car_image/charging.png" alt="e-golf review" />
           <div class="review__info">
-            <h4>Review</h4>
+            <h2>Review</h2>
             <span
               >“The Golf succeeds because it works brilliantly as an electric
               car yet it doesn’t compromise on practicality, equipment, or
               driving dynamics.”</span
             >
-            <button>Read the full review on What car?</button>
           </div>
         </div>
       </div>
@@ -234,7 +242,7 @@
     <!-- Contact -->
     <section class="container" id="contact">
       <div class="contact__title">
-        <h3>Contact us</h3>
+        <h2>Contact us</h2>
         <span>How can we help you? </span>
       </div>
       <form class="row g-3">
