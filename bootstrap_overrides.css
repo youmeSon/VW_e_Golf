@@ -30,16 +30,12 @@
   padding: 0;
 }
 
-.navbar-nav {
-  margin: 0 10px;
-}
 .nav_item {
   margin: 0 16px;
 }
 
 .nav-link {
   border-radius: 4px;
-  margin: 0 3px;
   outline: none;
 }
 .nav-link.active {
@@ -81,7 +77,8 @@
   .nav-link:hover {
     background-color: #00b1eb;
   }
-  .nav-link.active {
+  .nav-link.active,
+  .nav-link:hover {
     border: none;
   }
 }
