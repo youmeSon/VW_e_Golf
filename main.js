@@ -24,8 +24,8 @@ arrowUp.addEventListener("click", () => {
 });
 
 // Hide the navbar menu when click the navbar items
-const navItems = document.querySelector(".navbar-nav");
+const toggleNavItems = document.querySelector(".navbar-nav");
 const collapse = document.querySelector("#mainNav");
-navItems.addEventListener("click", () => {
+toggleNavItems.addEventListener("click", () => {
   collapse.classList.remove("show");
 });

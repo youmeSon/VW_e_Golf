@@ -107,14 +107,14 @@ p {
   text-align: center;
   margin-bottom: 8em;
 }
+/* Hide a scroll bar */
+::-webkit-scrollbar {
+  display: none;
+}
 
 /* About */
 #about {
   padding-top: 2rem;
-}
-
-.about__eGolf {
-  display: flex;
 }
 
 .car_image {
@@ -183,9 +183,14 @@ p {
   pointer-events: auto;
 }
 
-/* contact */
+/* Contact */
 .contact__title {
   margin-bottom: 3.5rem;
+}
+
+/* Footer */
+.footer__items {
+  padding-left: 6rem;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -195,6 +200,11 @@ p {
     --font-medium: 1.5rem;
     --font-small: 1rem;
     --font-micro: 0.9rem;
+  }
+
+  .navbar-brand {
+    font-size: var(--font-small);
+    margin-left: 0.2em;
   }
   .carousel-caption {
     transform: translateY(1.5rem);
@@ -214,6 +224,7 @@ p {
   .info__container {
     margin-top: 1rem;
     text-align: center;
+    padding: 0 1.5rem;
     order: 2;
   }
 
@@ -226,8 +237,12 @@ p {
     margin-bottom: 1rem;
   }
 
+  .strength__icon {
+    margin-top: 0.5em;
+  }
+
   .carousel-item {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
   }
 
   .arrow-up {
@@ -237,7 +252,18 @@ p {
     width: 2.2rem;
     height: 2.2rem;
   }
-}
+
+  .button_info {
+    width: 8rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: var(--font-micro);
+  }
+  
+  .footer__items {
+    padding-left: 2rem;
+  }
+  
 
 @media only screen and (max-width: 64rem) {
 }

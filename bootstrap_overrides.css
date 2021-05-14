@@ -1,3 +1,8 @@
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .navbar {
   background-color: var(--color-deep-blue);
   color: var(--color-white);
@@ -50,6 +55,7 @@
   outline: none;
   border: none;
 }
+
 /* Contact */
 .list-unstyled {
   text-align: start;
@@ -73,9 +79,10 @@
   height: 5rem;
   margin-top: 1rem;
 }
+
 @media screen and (max-width: 48rem) {
   .nav-link:hover {
-    background-color: #00b1eb;
+    background-color: var(--color-blue);
   }
   .nav-link.active,
   .nav-link:hover {
