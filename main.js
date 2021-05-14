@@ -22,3 +22,10 @@ document.addEventListener("scroll", () => {
 arrowUp.addEventListener("click", () => {
   scrollIntoView("#main");
 });
+
+// Hide the navbar menu when click the navbar items
+const navItems = document.querySelector(".navbar-nav");
+const collapse = document.querySelector("#mainNav");
+navItems.addEventListener("click", () => {
+  collapse.classList.remove("show");
+});
