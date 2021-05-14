@@ -91,4 +91,7 @@
   .page-footer {
     margin-top: 2rem;
   }
+  .footer-copyright {
+    font-size: var(--font-micro);
+  }
 }
