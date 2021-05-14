@@ -43,11 +43,11 @@
   outline: none;
 }
 .nav-link.active {
-  border-bottom: 1px solid rgb(163, 161, 185);
+  border-bottom: 2px solid rgb(163, 161, 185);
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid rgb(163, 161, 185);
+  border-bottom: 2px solid rgb(163, 161, 185);
 }
 
 .navbar-dark .navbar-toggler {
