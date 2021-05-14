@@ -32,6 +32,7 @@
   box-sizing: border-box;
 }
 body {
+  margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -81,6 +82,9 @@ p {
 .info__container {
   padding: 0 4rem;
 }
+.info__img {
+  padding: 0;
+}
 .info__data {
   transition: all var(--animation-duration) ease-out;
 }
@@ -120,6 +124,7 @@ p {
 .strength__items {
   margin-top: 8rem;
   margin-bottom: 8rem;
+  padding-right: 0;
 }
 .strength__item {
   text-align: center;
@@ -168,6 +173,11 @@ p {
   .info__container {
     margin-top: 1rem;
     text-align: center;
+    order: 2;
+  }
+
+  .info__img {
+    order: 1;
   }
 
   .strength__items {
@@ -183,8 +193,8 @@ p {
 @media only screen and (max-width: 64rem) {
   :root {
     /* Font size */
-    --font-large: 2.5rem;
-    --font-medium: 2rem;
+    --font-large: 2rem;
+    --font-medium: 1.5rem;
     --font-small: 1rem;
     --font-micro: 0.9rem;
   }
