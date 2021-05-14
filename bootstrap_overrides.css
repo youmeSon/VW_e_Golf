@@ -88,4 +88,7 @@
   .nav-link:hover {
     border: none;
   }
+  .page-footer {
+    margin-top: 2rem;
+  }
 }
