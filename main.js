@@ -3,14 +3,12 @@
 const main = document.querySelector("#main");
 const mainHeight = main.getBoundingClientRect().height;
 
-// Make the navbar to slightly transparent on the top
+// Give the navbar transparent effect
 const navbar = document.querySelector(".navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
-console.log(navbarHeight);
 document.addEventListener("scroll", () => {
   if (window.scrollY > navbarHeight) {
     navbar.classList.add("nav--dark");
-    console.log(navbarHeight);
   } else {
     navbar.classList.remove("nav--dark");
   }
@@ -74,3 +72,25 @@ const collapse = document.querySelector("#mainNav");
 toggleNavItems.addEventListener("click", () => {
   collapse.classList.remove("show");
 });
+
+// // Make special section to fade slowly
+const specialIcons = document.querySelectorAll(".special__icon");
+
+const options = {
+  root: document.querySelector("special__icon"),
+  rootMargin: "0px",
+  threshold: 1,
+};
+
+const specialCallback = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("darker");
+    } else {
+      entry.target.classList.remove("darker");
+    }
+  });
+};
+
+const observer = new IntersectionObserver(specialCallback, options);
+specialIcons.forEach((item) => observer.observe(item));
