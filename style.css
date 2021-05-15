@@ -1,3 +1,4 @@
+/* Global */
 :root {
   /* Color */
   --color-white: #fffbfb;
@@ -18,19 +19,13 @@
   /* Font weight */
   --weight-bold: 700;
   --weight-semi-bold: 500;
-  --weight-regular: 400;
-
-  /* Size */
-  --size-border-radius: 4px;
 
   /* Animation */
   --animation-duration: 300ms;
 }
 
 /* Universal tags */
-* {
-  box-sizing: border-box;
-}
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -228,6 +223,7 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
+
 /* Message bubble */
 .message-bubble {
   position: fixed;
