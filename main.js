@@ -73,7 +73,7 @@ toggleNavItems.addEventListener("click", () => {
   collapse.classList.remove("show");
 });
 
-// // Make special section to fade slowly
+// Add scroll animation to special section
 const specialIcons = document.querySelectorAll(".special__icon");
 
 const options = {
