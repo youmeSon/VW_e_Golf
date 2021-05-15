@@ -263,7 +263,7 @@ p {
   padding-left: 6rem;
 }
 
-@media only screen and (max-width: 48rem) {
+@media only screen and (max-width: 50rem) {
   :root {
     /* Font size */
     --font-large: 1.8rem;
@@ -276,6 +276,10 @@ p {
   .navbar-brand {
     font-size: var(--font-small);
     margin-left: 0.2em;
+  }
+
+  .navbar-nav {
+    font-size: var(--font-small);
   }
   .carousel-caption {
     transform: translateY(1.5rem);

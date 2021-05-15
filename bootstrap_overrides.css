@@ -84,13 +84,16 @@
   margin-top: 1rem;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 47rem) {
   .nav-link:hover {
     background-color: var(--color-blue);
   }
   .nav-link.active,
   .nav-link:hover {
     border: none;
+  }
+  .navbar-nav {
+    background-color: var(--color-deep-blue);
   }
   .page-footer {
     margin-top: 2rem;
