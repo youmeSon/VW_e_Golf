@@ -44,15 +44,16 @@
 }
 
 .nav-link {
+  border-bottom: 2px solid transparent;
   border-radius: 4px;
   outline: none;
 }
 .nav-link.active {
-  border-bottom: 2px solid rgb(163, 161, 185);
+  border-color: rgb(163, 161, 185);
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid rgb(163, 161, 185);
+  border-color: rgb(163, 161, 185);
 }
 
 .navbar-dark .navbar-toggler {
