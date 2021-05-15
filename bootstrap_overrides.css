@@ -94,11 +94,38 @@
   }
   .navbar-nav {
     background-color: var(--color-deep-blue);
+    font-size: var(--font-small);
   }
+
+  .navbar {
+    padding-top: 0;
+  }
+  .navbar-brand {
+    font-size: var(--font-small);
+    margin-left: 0.2em;
+    padding: 0.7rem 0;
+  }
+
+  .carousel-caption {
+    transform: translateY(1.5rem);
+  }
+
+  .carousel-item {
+    margin-top: 53px;
+  }
+
   .page-footer {
     margin-top: 2rem;
   }
   .footer-copyright {
     font-size: var(--font-micro);
+  }
+
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
   }
 }
