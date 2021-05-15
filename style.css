@@ -284,11 +284,24 @@ p {
   }
 
   .arrow-up {
-    right: 1rem;
+    right: 0.3rem;
     bottom: 1rem;
     font-size: 1.2rem;
     width: 2.2rem;
     height: 2.2rem;
+  }
+
+  .message-bubble {
+    right: 0.3rem;
+    bottom: 4rem;
+    font-size: 1.2rem;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .message-bubble.visible,
+  .arrow-up.visible {
+    opacity: 0.5;
   }
 
   .button__info {
