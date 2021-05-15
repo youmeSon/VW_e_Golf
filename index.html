@@ -147,7 +147,7 @@
                 (WLTP). Why wouldn't you go eletric?
               </p>
             </div>
-            <button class="button_info">Contact me</button>
+            <button class="button__info button__contact">Contact us</button>
           </div>
         </div>
         <div class="container-fluid about__strength">
@@ -219,7 +219,16 @@
                 signature blue flash across the front grille.
               </p>
             </div>
-            <button class="button_info">Find out more</button>
+            <button class="button__info button__more">Show more</button>
+            <!-- toggle -->
+            <div class="show__more hide">
+              <p class="more-p">
+                The e‑Golf's Car Net Mirrorlink system makes your Android and
+                Apple entertainment apps available on your dashboard, while the
+                Active Info Display delivers navigation instructions in the
+                driver's eyeline, directly behind the steering wheel.
+              </p>
+            </div>
           </div>
           <div class="col-md-7 col-sm-12 info__img">
             <img
@@ -253,7 +262,7 @@
                 offer lumber support as standard. Also available in leather.
               </p>
             </div>
-            <button class="button_info">Find out more</button>
+            <button class="button__info">Find out more</button>
           </div>
         </div>
       </div>
@@ -273,7 +282,7 @@
                 driving dynamics.”
               </p>
             </div>
-            <button class="button_info">Find out more</button>
+            <button class="button__info">Find out more</button>
           </div>
           <div class="col-md-7 col-sm-12 info__img">
             <img
@@ -337,7 +346,12 @@
           </div>
         </div>
         <div class="col-12 contact__btn">
-          <button type="submit" class="button_info">Submit</button>
+          <!-- Prevent form submission while not integrated with back end -->
+          <button type="submit" class="button__info submit__btn">Submit</button>
+        </div>
+        <!-- toggle -->
+        <div class="submit__message hide">
+          <p class="submit-p">Your message was submitted successfully.</p>
         </div>
       </form>
     </section>
@@ -346,6 +360,7 @@
     <button class="arrow-up">
       <i class="fas fa-arrow-up"></i>
     </button>
+
     <!-- Footer -->
     <footer class="page-footer" id="footer">
       <div class="container text-center text-md-left">

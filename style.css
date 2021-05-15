@@ -6,7 +6,7 @@
   --color-deep-blue: #001e50;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
-  --color-light-grey: #7c7979;
+  --color-light-grey: #929191;
 
   /* Font size */
   --font-large: 5rem;
@@ -66,7 +66,7 @@ p {
   font-size: var(--font-small);
 }
 
-.button_info {
+.button__info {
   width: 12rem;
   height: 3.5rem;
   margin-bottom: 2rem;
@@ -78,7 +78,7 @@ p {
   border: none;
   transition: transform var(--animation-duration) ease;
 }
-.button_info:hover {
+.button__info:hover {
   background-color: var(--color-blue);
   transform: scale(1.1);
 }
@@ -160,6 +160,16 @@ p {
   text-align: center;
 }
 
+/* Design */
+
+.more-p {
+  font-size: var(--font-micro);
+  color: var(--color-light-grey);
+}
+.hide {
+  display: none;
+}
+
 /* Arrow up */
 .arrow-up {
   position: fixed;
@@ -186,6 +196,12 @@ p {
 /* Contact */
 .contact__title {
   margin-bottom: 3.5rem;
+}
+
+.submit-p {
+  font-size: var(--font-micro);
+  color: var(--color-light-grey);
+  text-align: center;
 }
 
 /* Footer */
@@ -253,7 +269,7 @@ p {
     height: 2.2rem;
   }
 
-  .button_info {
+  .button__info {
     width: 8rem;
     height: 2.5rem;
     margin-bottom: 2rem;
