@@ -1,8 +1,20 @@
 "use strict";
 
-const navbar = document.querySelector(".navbar");
 const main = document.querySelector("#main");
 const mainHeight = main.getBoundingClientRect().height;
+
+// Make the navbar to slightly transparent on the top
+const navbar = document.querySelector(".navbar");
+const navbarHeight = navbar.getBoundingClientRect().height;
+console.log(navbarHeight);
+document.addEventListener("scroll", () => {
+  if (window.scrollY > navbarHeight) {
+    navbar.classList.add("nav--dark");
+    console.log(navbarHeight);
+  } else {
+    navbar.classList.remove("nav--dark");
+  }
+});
 
 // Scroll to section
 function scrollIntoView(selector) {
