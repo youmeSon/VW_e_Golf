@@ -192,6 +192,28 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
+/* Message bubble */
+.message-bubble {
+  position: fixed;
+  right: 1.5rem;
+  bottom:7rem;
+  font-size: 2rem;
+  width: 3.7rem;
+  height: 3.7rem;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.message-bubble.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 /* Contact */
 .contact__title {

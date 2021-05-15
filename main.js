@@ -33,19 +33,27 @@ submitBtn.addEventListener("click", (event) => {
   submitMessage.classList.remove("hide");
 });
 
-// Show arrow up
+// Show arrow up + message bubble
 const arrowUp = document.querySelector(".arrow-up");
+const messageBubble = document.querySelector(".message-bubble");
 document.addEventListener("scroll", () => {
   if (window.scrollY > mainHeight / 2) {
     arrowUp.classList.add("visible");
+    messageBubble.classList.add("visible");
   } else {
     arrowUp.classList.remove("visible");
+    messageBubble.classList.remove("visible");
   }
 });
 
 //  Handle arrow up button
 arrowUp.addEventListener("click", () => {
   scrollIntoView("#main");
+});
+
+// Handle message bubble button
+messageBubble.addEventListener("click", () => {
+  scrollIntoView("#contact");
 });
 
 // Hide the navbar menu when click the navbar items
