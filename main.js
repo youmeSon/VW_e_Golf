@@ -1,8 +1,5 @@
 "use strict";
 
-const main = document.querySelector("#main");
-const mainHeight = main.getBoundingClientRect().height;
-
 // Give the navbar transparent effect
 const navbar = document.querySelector(".navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
@@ -44,6 +41,8 @@ submitBtn.addEventListener("click", (event) => {
 });
 
 // Show arrow up + message bubble
+const main = document.querySelector("#main");
+const mainHeight = main.getBoundingClientRect().height;
 const arrowUp = document.querySelector(".arrow-up");
 const messageBubble = document.querySelector(".message-bubble");
 document.addEventListener("scroll", () => {
