@@ -2,6 +2,8 @@
 
 A new car page designed for the new Volkswagen e-Golf
 
+🔸 Github pages address: https://youmeson.github.io/bluesky_interactive_test
+
 - Page included
 
   - Navigation bar
@@ -20,7 +22,7 @@ A new car page designed for the new Volkswagen e-Golf
 | ------- | ---------------------------------------------------------------------------------- |
 | Home    | ![Default page](readme_img/home.png)<br>navbar transparent effect + carousel       |
 | About   | ![Default page](readme_img/about.png)<br>about section                             |
-| About2  | ![Default page](readme_img/about_strength.png)<br>animation effect when hover over |
+| About2  | ![Default page](readme_img/about_strength.png)<br>animation effect on hover |
 | Design  | ![Default page](readme_img/design.png)<br>toggle the show more button              |
 | Special | ![Default page](readme_img/special.png)<br>scroll effect using observer            |
 | Contact | ![Default page](readme_img/contact.png)<br>form                                    |
