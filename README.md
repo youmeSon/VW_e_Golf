@@ -3,7 +3,7 @@
 A new car page designed for the new Volkswagen e-Golf
 
 🔸 Github pages address: https://youmeson.github.io/bluesky_interactive_test
-![Default page](readme_img/screen.png)
+![Default page](readme_img/title.png)
 
 - Page included
 
@@ -19,17 +19,17 @@ A new car page designed for the new Volkswagen e-Golf
 
 2. Structure
 
-| Page    | Description                                                                        |
-| ------- | ---------------------------------------------------------------------------------- |
-| Home    | ![Default page](readme_img/home.png)<br>navbar transparent effect + carousel       |
-| About   | ![Default page](readme_img/about.png)<br>about section                             |
-| About2  | ![Default page](readme_img/about_strength.png)<br>animation effect when hover over |
-| Design  | ![Default page](readme_img/design.png)<br>toggle the show more button              |
-| Special | ![Default page](readme_img/special.png)<br>scroll effect using observer            |
-| Contact | ![Default page](readme_img/contact.png)<br>form                                    |
-| Footer  | ![Default page](readme_img/footer.png)<br>link to home(#)                          |
-| Mobile1 | ![Default page](readme_img/mobile_front.png)<br>menu color change when hover over  |
-| Mobile2 | ![Default page](readme_img/mobile_menu.png)<br>Home section on mobile              |
+| Page    | Description                                                                       |
+| ------- | --------------------------------------------------------------------------------- |
+| Home    | ![Default page](readme_img/home.png)<br>navbar transparent effect + carousel      |
+| About   | ![Default page](readme_img/about.png)<br>about section                            |
+| About2  | ![Default page](readme_img/about_strength.png)<br>animation effect on hover       |
+| Design  | ![Default page](readme_img/design.png)<br>toggle the show more button             |
+| Special | ![Default page](readme_img/special.png)<br>scroll effect using observer           |
+| Contact | ![Default page](readme_img/contact.png)<br>form                                   |
+| Footer  | ![Default page](readme_img/footer.png)<br>link to home(#)                         |
+| Mobile1 | ![Default page](readme_img/mobile_front.png)<br>menu color change when hover over |
+| Mobile2 | ![Default page](readme_img/mobile_menu.png)<br>Home section on mobile             |
 
 3. Goal
 
