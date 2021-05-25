@@ -2,7 +2,7 @@
 
 A new car page designed for the new Volkswagen e-Golf
 
-🔸 Github pages address: https://youmeson.github.io/bluesky_interactive_test
+🔸 Github pages address: https://youmeson.github.io/VW_e_Golf
 ![Default page](readme_img/title.png)
 
 - Page included
